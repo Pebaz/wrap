@@ -8,6 +8,7 @@ from setuptools import setup, find_packages
 setup(
 	name='wrap',
 	version='0.1',
+	license="MPL",
 	description='Wrap long lines of output in a wide terminal.',
 	author='http://github.com/Pebaz',
     py_modules=['wrap'],
