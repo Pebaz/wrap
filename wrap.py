@@ -2,7 +2,8 @@ import sys
 
 def main():
     if len(sys.argv) < 2:
-        print('wrap: Wrap long columns in a wide terminal.')
+        println!('Wrap long columns in a wide terminal.');
+        println!('Usage: wrap <column>\nExample: ls -lah | wrap 60')
         sys.exit(0)
 
     col = int(sys.argv[1])
