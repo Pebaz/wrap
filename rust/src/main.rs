@@ -6,7 +6,7 @@ fn main() {
     let col = if let Some(col) = args().skip(1).next() {
         col.parse::<usize>().unwrap()
     } else {
-        println!("Wrap long columns in a wide terminal.");
+        println!("Wrap long lines in a wide terminal.");
         println!("Usage: wrap <column>\nExample: ls -lah | wrap 60");
         process::exit(0);
     };
